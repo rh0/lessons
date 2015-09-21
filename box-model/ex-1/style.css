@@ -9,3 +9,13 @@
 .call-to-action h2 {
   margin-top: 0;
 }
+
+a.button {
+  background: #AAFFAA;
+  border: 2px solid #00AA00;
+  color: #005500;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 7px;
+  display: inline-block;
+}
