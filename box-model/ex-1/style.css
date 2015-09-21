@@ -4,6 +4,7 @@
   border: 10px solid #CCCCCC;
   background-color: #EFEFEF;
   padding: 25px;
+  overflow: auto;
 }
 
 .call-to-action h2 {
