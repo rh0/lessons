@@ -3,7 +3,8 @@
  * floating elements, their padding, borders, and margins included.
  *
  * overflow: auto; Is called a clearfix, and is somewhat of a hack, but is
- * important to know if you are floating things.
+ * important to know if you are floating things. Apply it to a wrapper that
+ * has children that float.
  */
 .cta-wrapper {
   width: 1010px;
