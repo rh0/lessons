@@ -17,5 +17,5 @@ a.button {
   font-weight: bold;
   text-decoration: none;
   padding: 7px;
-  display: inline-block;
+  float: left;
 }
