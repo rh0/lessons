@@ -1,0 +1,11 @@
+.content-wrapper {
+  width: 1000px;
+  margin: 50px auto 0;
+  overflow: auto;
+}
+
+.fill-murray {
+  width: 300px;
+  float: right;
+  margin-left: 20px;
+}
