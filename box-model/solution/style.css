@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-content,
+.main-content,
+.footer-content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 50px;
+  background: #eee;
+  border-bottom: 3px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0 0 5px 0;
+}
+
+.header h4 {
+  margin: 0 0 20px 0;
+}
+
+.main-content {
+  overflow: auto;
+}
+
+.main-content h2 {
+  margin-top: 0;
+}
+
+.fill-murray {
+  float: right;
+  width: 300px;
+  margin: 0 0 20px 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background: #eee;
+}
+
+.fill-murray img {
+  margin-bottom: 10px;
+}
+
+.cta-wrapper {
+  clear: both;
+  overflow: auto;
+  margin: 20px 0;
+}
+
+.call-to-action {
+  margin-right: 20px;
+  padding: 20px;
+  width: 276px;
+  float: left;
+  border: 2px solid #ccc;
+  background: #eee;
+}
+
+.call-to-action.last {
+  margin-right: 0;
+}
+
+a.button {
+  background: #AAFFAA;
+  border: 2px solid #00AA00;
+  color: #005500;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 7px;
+  margin: 5px 5px 0 0;
+  float: left;
+}
+
+.footer {
+  padding: 50px 0;
+  background: #eee;
+  border-top: 3px solid #ccc;
+  margin-top: 20px;
+}
