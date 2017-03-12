@@ -94,18 +94,27 @@ ul.submenu {
   margin-top: 0;
 }
 
-.fill-murray {
+.image-wrap {
   float: right;
-  width: 300px;
+  width: 400px;
   margin: 0 0 20px 20px;
   padding: 5px;
   border: 1px solid #ccc;
   background: #eee;
 }
 
-.fill-murray img {
-  margin-bottom: 10px;
+.sliding-door-container {
+  display: block;
+  width: 400px;
+  height: 504px;
+  background: url('images/sliding-door.png') no-repeat 0px 0px;
 }
+
+
+.sliding-door-container:hover {
+  background-position: 0 -505px;
+}
+
 
 .footer {
   padding: 50px 0;
