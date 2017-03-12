@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-content,
+.main-content,
+.footer-content {
+  width: 1000px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.header {
+  padding: 50px 0;
+  background: #eee;
+  border-bottom: 3px solid #ccc;
+  margin-bottom: 20px;
+  clear: both;
+}
+
+.header h1 {
+  margin: 0 0 5px 0;
+}
+
+.header h4 {
+  margin: 0 0 20px 0;
+}
+
+/* Hover Menu Styles */
+.header ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul.navigation {
+  list-style-type: none;
+  float: right;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+.navigation li {
+  position: relative;
+  float: left;
+}
+
+.navigation li a {
+  display: block;
+  line-height: 50px;
+  padding: 0 10px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation li:hover > a {
+  color: #eee;
+  background-color: #888;
+}
+
+.submenu li:hover a {
+  color: #000;
+  background: url('images/left-arrow.png') no-repeat center right;
+}
+
+.navigation li:hover ul.submenu {
+  display: block;
+}
+
+ul.submenu {
+  list-style-type: none;
+  background-color: #888;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  display: none;
+}
+
+.submenu li {
+  float: none;
+  display: block;
+  width: 210px;
+}
+
+
+/* Main Content Styles */
+
+.main-content {
+  overflow: auto;
+}
+
+.main-content h2 {
+  margin-top: 0;
+}
+
+.fill-murray {
+  float: right;
+  width: 300px;
+  margin: 0 0 20px 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background: #eee;
+}
+
+.fill-murray img {
+  margin-bottom: 10px;
+}
+
+.footer {
+  padding: 50px 0;
+  background: #eee;
+  border-top: 3px solid #ccc;
+  margin-top: 20px;
+}
